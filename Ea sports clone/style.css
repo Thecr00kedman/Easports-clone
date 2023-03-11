@@ -1,0 +1,444 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+button a{
+    text-decoration: none;
+}
+body{
+    position: relative;
+    overflow-x: hidden;
+    background: #161616;
+}
+:root{
+   
+}
+nav{
+    white-space: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: #161616;
+    overflow: hidden;
+    
+    
+   
+}
+
+nav a{
+    padding:5px 25px;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+nav a img{
+    width: 28px;
+    height: auto;
+    background: none;
+
+}
+.sub-nav{
+    overflow: hidden;
+    
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    min-height: auto;
+    
+
+}
+.sub-nav li {
+    padding: 5px 12px;
+    list-style-type: none;
+    padding-top: 15px;
+    font-size: 21px;
+    
+}
+.sub-nav li a{
+    font-family: serif;
+    font-weight: 800;
+    color: black; 
+    text-decoration: none;
+    align-items: center;
+   
+}
+.banner{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    height: auto;
+   
+   
+}
+
+.main-container div span{
+    color: white;
+    font-size: 21px;
+    line-height: 30px;
+    
+    
+}
+.container{
+    width: 100%;
+    max-height: auto;
+    display: flex;
+    position: relative;
+    background-color: #161616;
+   
+
+    
+}
+.main-container div h1{
+    color: white;
+    font-size: 45px;
+    font-family: serif;
+}
+.bg-video{
+    width: 100%;
+    height: auto;
+    mask-image: linear-gradient(180 deg, grey black);
+    
+}
+
+
+.main-container{
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top:200px ;
+    text-align: center;
+    list-style-type: none;
+    
+     
+   
+}
+.grid-container{
+    
+    margin: 10px 10%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+    overflow-x:hidden;
+    align-items: center;
+    
+    
+}
+.grid-container a img{
+    max-width: 100%;
+    height:auto;
+    padding: 10px 30px;
+}
+.allsport a{
+    text-decoration: none;
+    color: white;
+    
+}
+.allsport{
+    background: none;
+    padding: 13px 18px;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-size: 16px;
+}
+.button-1{
+    padding: 30px 0px;
+}
+.small-section{
+   align-items: center;
+   display: grid;
+   width: 100%;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 30px;
+   background: #f3f3f3;
+   padding: 10px 4px;
+   height: auto;
+   background: linear-gradient(45deg, rgb(24, 24, 75), rgb(96, 21, 21));
+}
+.right-side{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    
+}
+.right-side a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.join-now{
+    border: 1px white solid;
+    background:none;
+    color:whitesmoke;
+    font-size: 16px;
+    padding:15px 20px;
+    border-radius: 3px;
+
+}
+.games-title{
+    background-color: white;
+
+}
+.games-title div h1{
+    padding:30px 30px 10px 10px;
+    color: black;
+}
+.games-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    padding: 30px 40px;
+    align-items: center;
+}
+.games-container a img{
+    max-width:100%;
+    height: auto;
+    padding:10px 20px;
+}
+.section{
+    
+    display: flex;  
+    background-color: transparent;
+    box-shadow: 2px;
+    position: relative;
+   
+}
+
+.section a:hover{
+    opacity:1;
+}
+
+.hoverimage-2:hover{
+    transform: scale(1.2);
+   
+}
+.hoverimage-2{
+    flex-direction: row;
+    background-color: rgba(black, 0.5);
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+    max-width: 100%;
+    max-height: 100%;  
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top:50%;
+    left: 10%;
+    right: 10%;
+    bottom: 40%;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hoverimage-2 img{
+align-items: center;
+width: 120px;
+max-height: auto;  
+
+}
+.game-heading{
+    
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    margin:0;
+   
+}
+.section a{
+    display: flex;
+    align-items: center;
+}
+
+.hoverimage-2 div span{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    text-align: left;
+    line-height: 14px;
+    margin-left: -30px;
+   
+}
+
+
+
+.hoverimage-2 div {
+    align-items: center;
+}
+.news-header{
+    background-color: #e1e0e0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    box-sizing: border-box;
+}
+.news-header ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0px 40px;
+    width: 100%;
+    
+
+
+}
+.news-header ul li{
+    padding: 15px;
+    border-right: 1px solid rgb(197, 190, 190);   
+}
+.news-header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+   
+    
+}
+.news-header ul li:hover{
+    background-color: rgb(193, 193, 193);
+   
+}
+.news-stories{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 30px;
+    text-align: left;
+}
+.news-stories div a img{
+    max-width: 100%;
+    height: auto;
+}
+
+.sub-sections{
+    
+    display: flex;
+    flex-direction: column;
+    margin:40px 20px 40px 40px;
+    box-shadow: 6px 6px 10px grey;
+    transition: transform 0.5s;
+
+}
+.sub-sections div >*{
+    padding: 5px 10px;
+}
+.sub-sections div :nth-child(){
+    padding: 4px 5px;
+}
+.sub-sections:hover{
+    transform: translate(0,-20px) ;
+    box-shadow: 15px 15px 20px grey;
+}
+.news-stories .sub-sections span{
+    color: black;
+    font-size:14px ;
+}
+.news-stories .sub-sections div h3{
+    font-family:sans-serif;
+}
+.buttton-class{
+    background-color: white;
+    width: 100%;
+}
+.read-more{
+    margin:15px 5px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: none;
+}
+.read-more a{
+    font-size: 16px;
+color: rgb(91, 88, 88);
+}
+.Join-now-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px 20px;
+    background-color: white;
+    width: 100%;
+}
+.join-the-team{
+    padding: 15px 30px;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(201, 63, 63);
+
+}
+.Join-now-button span{
+   font: 16px black;
+}
+.join-the-team a{
+    color: rgb(225, 222, 222);
+    font-size: 16px;
+}
+.footer-list{
+    background-color:rgb(220, 217, 217);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.footer-left{
+    display: flex;
+    flex-direction: row;
+}
+.footer-left li {
+    list-style-type: none;
+    padding: 10px 15px;
+
+}
+.footer-left li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-left li a:hover{
+    color: red;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:10px 12px;
+}
+.footer-right> h5{
+    padding-right: 6px;
+    color: black;
+    font-size: 13px;
+    text-align: end;
+}
+.socials{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+.socials a{
+    color:black;
+    padding: 10px 12px;
+    font-size: 23px;
+}
+
+
